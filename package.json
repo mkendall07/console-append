@@ -1,0 +1,15 @@
+{
+  "name": "console-append",
+  "version": "1.0.0",
+  "description": "Append stuff before any console.* command",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Buliding with closure\" && node_modules/.bin/google-closure-compiler-js src/*.js > build/console-append.min.js"
+  },
+  "author": "Matt Kendall <emailmatthere@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "google-closure-compiler-js": "^20170910.0.1"
+  }
+}
